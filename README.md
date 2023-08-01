@@ -8,9 +8,9 @@ This repository showcases my collection of diverse projects that leverage AWS Sa
   - [01.2 Artificial Neural Networks (ANN) Model Scores:](#s12)
   - [01.3 Conclusion](#s13)
 - [02. Forecasting Weekly Retail Store Sales](#s2)
-  - [02.1 Local XGBoost Model Results](#21)
+  - [02.1 Local XGBoost Model Results](#s21)
   - [02.2 AWS SageMaker XGBoost Model Results](#s22)
-  - [02.3  Conclusion ](#s23)
+  - [02.3 Conclusion ](#s23)
 - [03. Cardiovascular Disease Detection](#s3)
     - [03.1 Local XGBoost Model Evaluation](#s31)
     - [03.2 Hyperparameter Tuning with GridSearch](#s32)
@@ -34,6 +34,7 @@ In this project, I applied two different predictive models, SageMaker Linear Lea
 - R-squared (R2): 0.7007765460174951
 - Mean Absolute Error (MAE): 0.30221866
 
+
 ## Artificial Neural Networks (ANN) Model Scores: <a name="s12"></a>
 
 - Root Mean Squared Error (RMSE): 5115.582
@@ -42,7 +43,9 @@ In this project, I applied two different predictive models, SageMaker Linear Lea
 - R-squared (R2): 0.8314370960526327
 - Adjusted R-squared: 0.8262305198689303
 
-## Conclusion <a name="s3"></a>
+
+
+## Conclusion <a name="s13"></a>
 The SageMaker Linear Learner model demonstrates respectable performance, with a moderate R-squared value of 0.70, indicating that it explains approximately 70% of the variance in health insurance costs. The low values of MSE, RMSE, and MAE further validate the model's ability to make accurate predictions. 
 The ANN model exhibits superior performance compared to the Linear Learner, with a higher R-squared value of 0.83, indicating that it explains approximately 83% of the variance in health insurance costs. The low values of RMSE, MSE, and MAE underscore the model's ability to make accurate predictions.
 
@@ -71,7 +74,7 @@ I extended our analysis by utilizing AWS SageMaker to perform hyperparameter tun
 - R-squared (R2): 0.9659829172814032
 - Adjusted R-squared: 0.9658337906441159
 
-## Conclusion <a name="23"></a>
+## Conclusion <a name="s23"></a>
 The local XGBoost model demonstrated promising results with an R-squared value of approximately 0.81, indicating that it explains around 81% of the variance in the weekly retail store sales. The Adjusted R-squared value further validates the model's ability to capture meaningful relationships in the data.
 I extended our analysis by utilizing AWS SageMaker to perform hyperparameter tuning, optimizing the XGBoost model's performance.
 The AWS SageMaker XGBoost model significantly outperformed the local model, achieving an impressive R-squared value of approximately 0.97, indicating that it explains approximately 97% of the variance in the weekly retail store sales. The hyperparameter tuning job led to improved predictive accuracy and enhanced model generalization.
@@ -90,7 +93,7 @@ Initially, I trained and tested an XGBoost model in local mode, and the performa
 - Recall: 0.6903161207266485
 - Accuracy: 0.7208571428571429
 
-## Hyperparameter Tuning with GridSearch: <a names"s32"></a>
+## Hyperparameter Tuning with GridSearch: <a name="s32"></a>
 
 To further improve the model's performance, I performed grid search to optimize the hyperparameters. The tuned XGBoost model yielded enhanced evaluation scores:
 
