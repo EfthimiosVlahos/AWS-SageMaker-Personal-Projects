@@ -3,7 +3,7 @@
 This repository showcases my collection of diverse projects that leverage AWS SageMaker and various other AWS services. The projects encompass health insurance cost prediction, forecasting weekly retail store sales, cardiovascular disease detection, and traffic sign recognition using cutting-edge deep learning techniques. Below is a concise summary of each project:
 
 # Table of contents
-- [01. Health Insurance Cost Prediction](#s1)
+- [01. Medical Insurance Cost Prediction](#s1)
   - [01.1 SageMaker Linear Learner Model Scores](#s11)
   - [01.2 Artificial Neural Networks (ANN) Model Scores:](#s12)
   - [01.3 Conclusion](#s13)
@@ -22,7 +22,7 @@ This repository showcases my collection of diverse projects that leverage AWS Sa
   - [04.1 Training the CNN LeNet Model using Amazon SageMaker](#s41)
   - [04.2 Conclusion](#s42)
     
-# Health Insurance Cost Prediction <a name="s1"></a>
+# Medical Insurance Cost Prediction <a name="s1"></a>
 
 In this project, I applied two different predictive models, SageMaker Linear Learner and Artificial Neural Networks (ANN), to estimate the health insurance cost incurred by individuals based on various factors. The key findings from our model evaluations are as follows:
 
