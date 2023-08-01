@@ -24,6 +24,8 @@ This repository showcases my collection of diverse projects that leverage AWS Sa
     
 # Medical Insurance Cost Prediction <a name="s1"></a>
 
+[Link to Notebook](https://github.com/EfthimiosVlahos/AWS-SageMaker-Personal-Projects/tree/main/Medical_Insurance_Premium_Prediction)
+
 In this project, I applied two different predictive models, SageMaker Linear Learner and Artificial Neural Networks (ANN), to estimate the health insurance cost incurred by individuals based on various factors. The key findings from our model evaluations are as follows:
 
 ## SageMaker Linear Learner Model Scores: <a name="s11"></a>
@@ -51,6 +53,8 @@ The ANN model exhibits superior performance compared to the Linear Learner, with
 
 Overall, both models showcase their strengths in predicting health insurance costs, with the ANN model outperforming the Linear Learner model in terms of predictive accuracy. The ANN model's ability to capture complex relationships within the data contributes to its improved performance.
 # Forecasting Weekly Retail Store Sales <a name="s2"></a>
+
+[Link to Notebook](https://github.com/EfthimiosVlahos/AWS-SageMaker-Personal-Projects/tree/main/Forecasting_Weekly_Retail_Store_Sales)
 
 In this data science case study, I focused on forecasting weekly retail store sales for specific departments using the XGBoost algorithm. The project comprises several key phases, including data collection, organization, exploratory data analysis (EDA), hypothesis testing, and model building. I leveraged both local and AWS SageMaker environments to develop and fine-tune the XGBoost model, leading to valuable insights and accurate predictions.
 
@@ -82,6 +86,8 @@ The AWS SageMaker XGBoost model significantly outperformed the local model, achi
 
 
 # Cardiovascular Disease Detection <a name="s3"></a>
+
+[Link to Notebook](https://github.com/EfthimiosVlahos/AWS-SageMaker-Personal-Projects/tree/main/Cardiovascular_Disease_Detection)
 
 In this Jupyter Notebook, we addressed the important task of detecting the presence or absence of cardiovascular disease in individuals based on various features related to their health and lifestyle. The dataset encompassed key attributes such as age, height, weight, gender, blood pressure readings, cholesterol level, glucose level, smoking habits, alcohol intake, physical activity, and the binary label indicating the presence or absence of cardiovascular disease.
 
@@ -116,6 +122,9 @@ Finally, I deployed the trained XGBoost model to make predictions on new data. T
 ## Concluion <a name="s36"></a>
 The developed XGBoost model, combined with dimensionality reduction using PCA, showcases the potential of machine learning in healthcare for accurate disease detection. Early identification of cardiovascular disease can lead to timely interventions and personalized treatment plans, positively impacting patient outcomes and reducing healthcare costs.
 # Traffic Sign Recognition - Deep Learning Multiclassifier <a name="s4"></a>
+
+[Link to Notebook](https://github.com/EfthimiosVlahos/AWS-SageMaker-Personal-Projects/tree/main/Traffic%20Sign_Recognition_Deep_Learning%20Multiclassifier)
+
 
 The primary objective of this project was to develop a powerful traffic sign recognition system by harnessing the capabilities of TensorFlow and Keras and implementing the LeNet architecture. The application of deep learning in this context has immense implications for enhancing road safety, facilitating autonomous vehicles, and enabling intelligent traffic management. The project showcases the potential of cutting-edge deep learning techniques in addressing real-world challenges and paving the way for safer and more efficient transportation systems.
 
