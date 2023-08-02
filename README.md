@@ -1,6 +1,6 @@
 # AWS Personal Projects
 
-This repository showcases my collection of diverse projects that leverage AWS SageMaker and various other AWS services. The projects encompass health insurance cost prediction, forecasting weekly retail store sales, cardiovascular disease detection, and traffic sign recognition using cutting-edge deep learning techniques. Below is a concise summary of each project:
+This repository showcases my collection of diverse projects that leverage AWS SageMaker and various other AWS services. The projects encompass medical insurance cost prediction, forecasting weekly retail store sales, cardiovascular disease detection, and traffic sign recognition using cutting-edge deep learning techniques. Below is a concise summary of each project:
 
 # Table of contents
 - [01. Medical Insurance Cost Prediction](#s1)
